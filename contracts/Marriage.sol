@@ -6,6 +6,7 @@ contract Marriage {
     uint256 public lastRegistryNo;
     uint256 public Fee = 1 ether;
     uint256 public feeCollected;
+    
 
     enum MarriageStatus { Divorced, Married, MarriagePending, DivorcedPending }
 
